@@ -1,6 +1,4 @@
 #include "pch.h"
-#include <algorithm>
-#include <cstring>
 
 #define LCS_C(x1,x2)  (C[(x1)*(leny+1)+(x2)])
 #define LCS_B(x1,x2)  (B[(x1)*(leny+1)+(x2)])
@@ -29,8 +27,7 @@ void getLCScontent(int lenx, int leny, const char x[],
 
 int lcs(const char x[], const char y[], char z[])
 {
-	int n;
-	int lenx = strlen(x), leny = strlen(x),
+	int lenx = strlen(x), leny = strlen(y),
 		*C = new int[(lenx + 1)*(leny + 1)];
 	Dart* B = new Dart[(lenx + 1)*(leny + 1)];
 	memset(C, 0, sizeof(int)*(lenx + 1)*(leny + 1));

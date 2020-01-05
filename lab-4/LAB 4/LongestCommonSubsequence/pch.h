@@ -1,7 +1,10 @@
 ﻿#ifndef PCH_H
 #define PCH_H
 
-#include "LCS.h"
+#include <algorithm>
+#include <cstring>
+#include <iostream>
+#include <ctime>
 // TODO: add headers that you want to pre-compile here
 
 #endif //PCH_H

@@ -1,6 +1,4 @@
 #include "pch.h"
-#include <iomanip>
-#include <algorithm>
 
 #define DD(i,j) d[(i)*(ly+1)+(j)] 
 

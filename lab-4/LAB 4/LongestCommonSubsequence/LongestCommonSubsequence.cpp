@@ -1,6 +1,5 @@
 ﻿#include "pch.h"
-#include <iostream>
-#include <ctime>
+#include "LCS.h"
 
 int main()
 {

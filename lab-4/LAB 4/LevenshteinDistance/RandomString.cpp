@@ -1,9 +1,6 @@
 #include "pch.h"
-#include <stdlib.h>
-#include <time.h>
 
 void GetRandomString(char* str, const int stringLength) {
-	srand(time(NULL));
 	static const char alphabet[] =
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 		"abcdefghijklmnopqrstuvwxyz";

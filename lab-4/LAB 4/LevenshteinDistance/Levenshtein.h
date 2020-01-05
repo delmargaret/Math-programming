@@ -1,3 +1,6 @@
+#ifndef LEVENSHTEIN_H
+#define LEVENSHTEIN_H
+
 // -- дистанции   Левенштeйна (динамическое программирование)
 int levenshtein(
 	int lx,           // длина слова x 
@@ -12,3 +15,5 @@ int levenshtein_r(
 	int ly,           // длина строки y
 	const char y[]    // строка y
 );
+
+#endif
